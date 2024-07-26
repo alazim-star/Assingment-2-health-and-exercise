@@ -74,7 +74,6 @@
         position: absolute;
         align-items: center;
 
-
     }
     .our-team p{
         position: absolute;
@@ -86,6 +85,102 @@
         text-align: center;
 
     }
+    .Mile-Container{
+        flex-direction: column;
+        margin-top: 60px;
+        height: 531px;
+        width: 353px;
+        margin-left: 10px;
+   
+    }
+    .Mile-Container img{
+        width: 287px;
+        height: 170px;
+        border-radius: 20px;
+        padding: 0px 33px 0px 33px;
+        border-radius:20px;
+    }      
+    .Mile-Container p{
+        width: 287px;
+        height: 96px;
+        padding: 0px;
+        padding: 0px 33px 0px 33px;
+        margin-top: 10px;
+
+    }
+    .Mile-Container h2{
+       width: 287px;
+       height: 96px;
+       padding: 0px 33px 0px 33px;
+    }
+    .btn-primary{
+        width: 287px;
+         height: 54px;
+         margin-left: 30px;
+
+    }
+    .Training-div{
+        width: 353px;
+        height: 162px;
+        margin-top: 30px;
+  
+
+    }
+    .Training-div p{
+        width: 331px;
+        height: 72px;
+
+    }
+    .container{
+
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+position: relative;
+
+    }
+    .ex-img-2{
+        width: 250px;
+height: 256px;
+position:absolute;
+margin-top: -30px;
+    }
+    .ex-img-1{
+        width: 250px;
+height: 139px;
+position: relative;
+margin-left: -35px;
+margin-top: -30px;
+
+    }
+    .ex-img-4{
+        width: 200px;
+height: 141px;
+position: absolute;
+margin-left: -65px;
+
+
+    }
+
+    .ex-img-5{
+        width: 200px;
+height: 141px;
+position: absolute;
+margin-left: -35px;
+margin-top: 0px;
+
+}
+
+   
+    .ex-img-3{
+        display: none;
+    
+    }
+    .ex-img-6{
+        display: none;
+    }
+
+
+
     
     
   }
