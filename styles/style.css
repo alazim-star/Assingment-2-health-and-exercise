@@ -29,6 +29,10 @@ main{
 }
 
 /* section navbar */
+.hamburger{
+display: none;
+
+}
 
 .navbar{
   width: 80%;
@@ -71,6 +75,7 @@ main{
   padding: 4px;
 
 }
+
 
 /* section banner */
 .section-banner-1{
