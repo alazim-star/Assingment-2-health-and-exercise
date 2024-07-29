@@ -300,16 +300,11 @@ margin-top: 5%;
   margin-left: 12%;
   max-height: fit-content;
   max-width: fit-content;
- 
-
-
 
 }
 .container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-
-
 
 }
 .ex-img-1{
@@ -317,7 +312,6 @@ margin-top: 5%;
   height: 200px;
 
 }
-
 
 
 .ex-img-2{
@@ -349,19 +343,6 @@ margin-left: -33%;
  margin-left: -45%;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* BMI Calculator and From Start*/
 .section-table-and-from{
