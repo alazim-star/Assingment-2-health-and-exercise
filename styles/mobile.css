@@ -1,7 +1,4 @@
 @media screen and (max-width:576px) {
-    *{
-        border: 1px solid red;
-    }
    
     /* section navbar */
     .nav-link{
@@ -254,7 +251,7 @@
         height: fit-content;
        }
        .title{
-        text-align: center;
+        text-align: left;
         font-size: 3rem;
         
        }
