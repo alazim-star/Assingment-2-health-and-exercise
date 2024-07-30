@@ -264,7 +264,7 @@
        .footer-end{
         flex-direction: column;
         text-align: left;
-        margin-left: -180px;
+        margin-left: -100px;
 
 
        }
@@ -272,7 +272,7 @@
 
        }
        .copy-right{
-        margin-right: 170px;
+        margin-left: -100px;
 
        }
     
