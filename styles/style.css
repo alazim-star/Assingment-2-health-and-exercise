@@ -18,11 +18,11 @@
 body{
   width: 100%;
   margin: 0 auto;
-  background-color:#242424;
+  background-color:black
 }
 main{
   width:100%;
-  background-color: #000000;
+  background-color:black;
   position: relative;
   
 
@@ -35,7 +35,7 @@ display: none;
 }
 
 .navbar{
-  width: 80%;
+  width: 100%;
   margin: auto;
   padding: 35px 0;
   display: flex;
@@ -56,6 +56,7 @@ display: none;
   color: #e6533c;
     font-size: 2.1rem;
     font-style: italic;
+  margin-left: 100%;
 
 }
 .nav-home{
@@ -70,6 +71,8 @@ display: none;
 
 }
 .nav-link{
+  margin-right: 8%;
+margin-left: 8%;
   border: 2px solid rgb(61, 59, 59);
   border-radius: 20px;
   padding: 4px;
@@ -104,7 +107,7 @@ margin-left: 10%;
 
 }
 .image-font{
-  margin-left:-5%;
+  margin-left:-6%;
   
 }
 .image-man{
@@ -194,8 +197,8 @@ position: absolute;
 }
 /* Change Your Habits */
 
-.our-team{
-margin-top: 5%;
+.Your-Habits{
+margin-bottom: 100px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -204,11 +207,11 @@ margin-top: 5%;
   margin-left: 5%;
   margin-right: 20%;
  }
-.our-team h2{
+.Your-Habits h2{
   font-size: 40px;
 
 }
-.our-team p{
+.Your-Habits p{
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   padding: 10px;}
@@ -343,6 +346,22 @@ margin-left: -33%;
  margin-left: -45%;
 
 }
+/* BMI-header  */
+.BMI-header h2{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+
+
+}
+.BMI-header p{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  text-align: center;
+
+}
 
 /* BMI Calculator and From Start*/
 .section-table-and-from{
@@ -369,10 +388,10 @@ margin-left: -33%;
   border: none;
 }
 #box-size{
-  border-radius: 5px;
-max-width: fit-content;
-background-color:#474646;
-  color: #d8d5d5;
+  border-radius: 10px;
+  max-width: fit-content;
+  background-color:#474646;
+  color: #8d8c8c;
   font-size: 16px;
   text-align: left;
   border:1px solid  #2e2d2d ;
@@ -400,9 +419,10 @@ th,td{
 
 }
 
+
 /* Meet Our team header*/
 .our-team{
-  margin-top: 100px;
+  margin-top: 60px;
   color: white;
   justify-content: center;
 
@@ -425,6 +445,7 @@ th,td{
 /* Meet Our team Image */
 .Meet-Our-team-Image{
   margin-top: 60px;
+margin-bottom: 60px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
 max-width: fit-content;
@@ -454,9 +475,10 @@ font-size: 14px;
 margin-top: -50px;
 margin-left: 30px;
 }
+
 /* footer section */
+
 .footer-container{
-  /* margin-top: 60px; */
   background-color:rgb(24, 23, 23); 
   height:400px;
   width:85%px;
@@ -468,9 +490,9 @@ padding: 20px;
 
 }
 .footer-end{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows: repeat(5,1fr);
+display: flex;
+/* flex-direction: column; */
+/* grid-template-columns: repeat(2,1fr); */
 font-size: 20px;
 color: rgba(255, 255, 255, 0.5);
 padding: 20px;
@@ -504,4 +526,5 @@ margin-top: -50px;
 #get{
   color: white;
 }
+
 /* The End */
