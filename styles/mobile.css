@@ -1,4 +1,13 @@
 @media screen and (max-width:576px) {
+
+*{
+    border: 1px solid red;
+
+}
+body{
+    border: 2px dashed rgb(157, 238, 37);
+}
+
    
     /* section navbar */
     .nav-link{
@@ -50,6 +59,7 @@
         line-height: 24px;
         text-align: left;
         margin-top: -700px;
+        text-align:justify;
         
     }
     .image-man{
@@ -111,7 +121,7 @@
         flex-direction: column;
         margin-top: 60px;
         height: 531px;
-        width: 310px;
+        width: 280px;
         margin-left: 8%;
         margin-right: 8%;
    
@@ -144,13 +154,13 @@
     }
     /* Training and Exercises  */
     .Training-div{
-        width: 353px;
+        width: 325px;
         height: 162px;
         margin-top: 30px;
         margin-bottom: 120px;
     }
     .Training-div p{
-        width: 331px;
+        width: 325px;
         height: 72px;
 
     }
@@ -164,7 +174,7 @@
 
     }
     .ex-img-2{
-        width:200px;
+        width:165px;
         height: 256px;
         position:absolute;
         margin-top: -30px;
@@ -173,23 +183,23 @@
         width: 300px;
         height: 139px;
         position: relative;
-        margin-left: -35px;
+        margin-left: -48px;
         margin-top: -30px;
 
     }
     .ex-img-4{
-        width: 168px;
+        width: 165px;
         height: 141px;
         position: absolute;
-        margin-left: -100px;
+        margin-left: -105px;
 
     }
 
   .ex-img-5{
-        width: 200px;
-        height: 141px;
+        width: 210px;
+        height: 145px;
         position: absolute;
-        margin-left: -35px;
+        margin-left: -45px;
         
 }
     .ex-img-3{
@@ -203,13 +213,14 @@
     .BMI-header h2{
         margin-top: 200px;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 15px;
 
 
     }
     .BMI-header p{
         text-align: left;
-        margin-left: 25px;
+        margin-left: 15px;
+        text-align: justify;
 
     }
 
@@ -218,7 +229,7 @@
     .section-table-and-from{
         margin-top: 60px;
         flex-direction: column;
-        width:fit-content;
+        width:310px;
         align-items: last baseline;
         height: fit-content;
         padding: 30px 30px 0px 30px;
@@ -239,16 +250,18 @@
        .Meet-Our-team-Image{
         grid-template-columns: repeat(1,1fr);
         padding: 15px;
-        margin-left: 6%;
+        margin-left: 2.4%;
 
        }
        .Meet-Our-team-Image img{
-        width: 350px;
+        width:300px;
        }
        /* footer section */
        .footer-container{
         flex-direction: column;
         height: fit-content;
+        width: 312px;
+        margin-left: 2%;
        }
        .title{
         text-align: left;
@@ -268,14 +281,15 @@
 
 
        }
-       #get{
-
-       }
+       
        .copy-right{
         margin-left: -100px;
 
        }
-    
+       .start{
+        font-size: 1.5rem;
+       }
+       
   }
 
   /* The End */
