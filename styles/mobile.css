@@ -1,12 +1,12 @@
 @media screen and (max-width:576px) {
 
-*{
+/* *{
     border: 1px solid red;
 
 }
 body{
     border: 2px dashed rgb(157, 238, 37);
-}
+} */
 
    
     /* section navbar */
@@ -34,7 +34,7 @@ body{
     }
     .download-button{
         height:50px ;
-        width:300px ;
+        width:205px ;
         padding: 16px 40px 16px 40px;
         margin: 20px 0px;
     }
@@ -85,13 +85,15 @@ body{
         height: 74.09px;
         width: 145.91px;
         margin-top: 70px;
-        margin-left: 210px;
+        margin-left: 198px;
+        text-align: center;
         
 
     }
     /* ball design  */
     .ball{
         display: none;
+
        
     }
     /* Change Your Habits */
@@ -106,7 +108,10 @@ body{
         font-size: 32px;
     }
     .Your-Habits p{
+        word-spacing:1px;
         position: absolute;
+        ;
+        line-height: normal;
     }
     /* Change Your Habits Image */
     .cotainer{
@@ -120,38 +125,42 @@ body{
     .Mile-Container{
         flex-direction: column;
         margin-top: 60px;
-        height: 531px;
-        width: 280px;
+        width: 200px;
         margin-left: 8%;
         margin-right: 8%;
+        display: flex;
+        height: fit-content;
    
     }
     .Mile-Container img{
         width: 287px;
-        height: 170px;
+        height: 220px;
         border-radius: 20px;
-        padding: 0px 33px 0px 33px;
-        border-radius:20px;
+        margin-top: -300px;
+        margin-left: -45px;
     }      
     .Mile-Container p{
-        width: 287px;
-        height: 96px;
-        padding: 0px;
-        padding: 0px 33px 0px 33px;
+        width: 235px;
+        height: 100px;
         margin-top: 10px;
+        text-align: justify;
+        margin-left: -30px;
+      
 
     }
     .Mile-Container h2{
-       width: 287px;
+       width: 185px;
        height: 96px;
-       padding: 0px 33px 0px 33px;
+       font-size: 30px;
+       margin-left: 5px;
     }
     .btn-primary{
-        width: 287px;
+        width: 185px;
          height: 54px;
-         margin-left: 30px;
+         margin-left: 12px;
 
     }
+
     /* Training and Exercises  */
     .Training-div{
         width: 325px;
@@ -229,10 +238,11 @@ body{
     .section-table-and-from{
         margin-top: 60px;
         flex-direction: column;
-        width:310px;
+        width:300px;
         align-items: last baseline;
         height: fit-content;
         padding: 30px 30px 0px 30px;
+        margin-left: 1.5%;
 
       }
       #box-size{
@@ -240,7 +250,6 @@ body{
         width: 150px;
     
       }
-
     /* Meet Our team header*/
     .our-team{
         margin-left: 40px;
@@ -255,6 +264,10 @@ body{
        }
        .Meet-Our-team-Image img{
         width:300px;
+       }
+       .our-team p{
+        text-align: left;
+
        }
        /* footer section */
        .footer-container{
@@ -283,7 +296,7 @@ body{
        }
        
        .copy-right{
-        margin-left: -100px;
+        margin-left: -50px;
 
        }
        .start{
